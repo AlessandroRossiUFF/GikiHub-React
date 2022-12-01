@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/utils/tratarData.ts"],
+  "sourcesContent": ["const tratarData = (data: string) => {\n    const arrData = data.split(\"-\")\n    return `${arrData[2]}/${arrData[1]}/${arrData[0]}`\n}\n\nexport default tratarData;"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,MAAM,aAAa,CAAC,SAAiB;AACjC,QAAM,UAAU,KAAK,MAAM;AAC3B,SAAO,GAAG,QAAQ,MAAM,QAAQ,MAAM,QAAQ;AAAA;AAGlD,IAAO,qBAAQ;",
+  "names": []
+}

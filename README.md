@@ -7,9 +7,6 @@ Você insere o username desejado e realiza a busca através do botão de busca (
 A próxima coisa que pretendo fazer é adicionar ferramentas de exibição personalizada, com sistema de busca por termos, filtros personalizados e ordenação de exibição. Contudo, não é uma tarefa tão trivial pois vai depender de ler bem a documentação da API para usar as queries corretas, e talvez já seja necessário criar um Token de usuário para executar as requisições a mais que deverão ser feitas com esses sistemas avançados.
 
 ## Links
-Código Fonte: [https://github.com/Palhanor/GikiHub](https://github.com/Palhanor/GikiHub)
 
-Projeto funcional: [https://palhanor.github.io/GikiHub/](https://palhanor.github.io/GikiHub/)
+Projeto funcional: https://GikiHub.lojaonline.repl.co
 
-
-![Screenshot do gikhub no perfil de Linus Torvalds](./public/assets/screenshot.png)

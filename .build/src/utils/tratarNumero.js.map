@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/utils/tratarNumero.ts"],
+  "sourcesContent": ["const tratarNumero = (numero: number) => {\n    const arrNumero = numero.toString().split(\"\").reverse()\n    const arrNumeroFinal = []\n    for (let i = 0; i < arrNumero.length; i++) {\n        if (i % 3 === 0) {\n            arrNumeroFinal.push(\".\")\n            arrNumeroFinal.push(arrNumero[i])\n        } else {\n            arrNumeroFinal.push(arrNumero[i])\n        }\n    }\n    const numeroFinal = arrNumeroFinal.reverse().join(\"\").slice(0, -1)\n    return numeroFinal;\n}\n\nexport default tratarNumero;"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,MAAM,eAAe,CAAC,WAAmB;AACrC,QAAM,YAAY,OAAO,WAAW,MAAM,IAAI;AAC9C,QAAM,iBAAiB;AACvB,WAAS,IAAI,GAAG,IAAI,UAAU,QAAQ,KAAK;AACvC,QAAI,IAAI,MAAM,GAAG;AACb,qBAAe,KAAK;AACpB,qBAAe,KAAK,UAAU;AAAA,WAC3B;AACH,qBAAe,KAAK,UAAU;AAAA;AAAA;AAGtC,QAAM,cAAc,eAAe,UAAU,KAAK,IAAI,MAAM,GAAG;AAC/D,SAAO;AAAA;AAGX,IAAO,uBAAQ;",
+  "names": []
+}
